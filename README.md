@@ -9,3 +9,6 @@ The dotfiles and other configuration info for arch setup for my own future refer
 - **menu** : rofi
 - **editor** : vim
 - **shell** : fish
+
+![Screen1](/Screenshots/Screenshot1.png)
+![Screen2](/Screenshots/Screenshot2.png)
