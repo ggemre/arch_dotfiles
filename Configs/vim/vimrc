@@ -1,0 +1,45 @@
+set laststatus=2 " show statuys bar
+set noshowmode " hide --insert-- etc
+
+autocmd vimenter * ++nested colorscheme gruvbox " set colorscheme
+
+" easy-align configuration
+xmap ga <Plug>(EasyAlign)
+nmap ga <Plug>(EasyAlign)
+
+" lightline configuration
+let g:lightline = {}
+let g:lightline.colorscheme = 'gruvbox'
+
+" vimwiki configuration
+set nocompatible
+filetype plugin on
+syntax on
+
+" install plugins
+call plug#begin('~/.vim/plugged')
+
+Plug 'morhetz/gruvbox'
+Plug 'junegunn/vim-easy-align'
+Plug 'itchyny/lightline.vim'
+Plug 'shinchu/lightline-gruvbox.vim'
+Plug 'vimwiki/vimwiki'
+Plug 'ap/vim-css-color'
+Plug 'dense-analysis/ale'
+Plug 'ycm-core/YouCompleteMe'
+Plug 'preservim/nerdtree'
+
+call plug#end()
+
+" user defined configuration
+set number
+set background=dark
+set tabstop=4
+set shiftwidth=4
+
+map j <Left>
+map k <Down>
+map l <Up>
+map ; <Right>
+
+set noshowmode
