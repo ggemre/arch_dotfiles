@@ -2,7 +2,7 @@
 
 MINUTES_TO_LOCK=8
 
-let "idle_ms = $MINUTES_TO_LOCK * 60 * 1000" #1000
+let "idle_ms = $MINUTES_TO_LOCK * 60 * 1000"
 LOCKED=false
 
 while :
