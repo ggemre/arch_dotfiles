@@ -12,3 +12,5 @@ The dotfiles and other configuration info for arch setup for my own future refer
 
 ![Screen1](/Screenshots/Screenshot1.png)
 ![Screen2](/Screenshots/Screenshot2.png)
+
+**Note:** screenshots are slightly outdated at this time.
