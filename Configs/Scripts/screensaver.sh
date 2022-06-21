@@ -10,7 +10,7 @@ do
 	let "idle_time = $(xssstate -i)"
 	if [ $((idle_ms)) -le $((idle_time)) ] && ! [ $LOCKED = true ];
 	then
-		bash ~/Scripts/lock.sh
+		bash ~/scripts/lock.sh
 		LOCKED=true
 	fi
 	if [ $((idle_time)) -le 10 ] && [ $LOCKED = true ];
