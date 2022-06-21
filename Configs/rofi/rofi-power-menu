@@ -38,7 +38,7 @@ icons[shutdown]=""
 icons[cancel]=""
 
 declare -A actions
-actions[lockscreen]="bash ~/Scripts/lock.sh"
+actions[lockscreen]="/home/gge/scripts/lock.sh"
 #actions[switchuser]="???"
 actions[logout]="loginctl terminate-session ${XDG_SESSION_ID-}"
 actions[suspend]="systemctl suspend"
