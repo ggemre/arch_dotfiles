@@ -31,6 +31,8 @@ Empty workspace screenshot:
 
 ==COMING SOON== I will provide an install script soon (for myself to set up temporary virtual environments)
 
+---
+
 Busy workspace screenshot:
 
 ![Screen2](Screenshots/screen1.png)
@@ -51,7 +53,7 @@ Additional screenshot:
 
 ### Polybar and Rofi config:
 
-For polybar - inspired by (polybar-themes)[https://github.com/adi1090x/polybar-themes], specifically the (forest)[https://github.com/adi1090x/polybar-themes#Forest] theme, of which I borrowed a lot of modules from to create my "gruvbar" bar.
+For polybar - inspired by [polybar-themes](https://github.com/adi1090x/polybar-themes), specifically the [forest](https://github.com/adi1090x/polybar-themes#Forest) theme, of which I borrowed a lot of modules from to create my "gruvbar" bar.
 
 For rofi - ideas, scripts, and features taken from both this [rofi theme collection](https://github.com/adi1090x/rofi) and from this [setup here](https://github.com/adi1090x/polybar-themes).
 
