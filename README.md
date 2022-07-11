@@ -2,17 +2,81 @@
 
 The dotfiles and other configuration info for arch setup for my own future reference.
 
+Each package was made by others. I just configured them and wrote some usefule scripts. I will do my best to link to each component I used and to give credit.
+
+---
+
+Main specs:
+
 - **os** : [archlinux](https://wiki.archlinux.org/) 
 - **login manager** : [ly](https://github.com/fairyglade/ly)
 - **wm** : [i3-gaps](https://github.com/Airblader/i3)
 - **statusbar** : [polybar](https://github.com/polybar/polybar)
 - **menu** : [rofi](https://github.com/davatorium/rofi)
+- **terminal** : [kitty](https://github.com/kovidgoyal/kitty)
 - **editor** : [neovim](https://github.com/neovim/neovim)
 - **shell** : [fish](https://github.com/fish-shell/fish-shell)
+- **theme** : [gruvbox](https://github.com/morhetz/gruvbox)
+- **browser** : [brave](https://brave.com/)
 
-![Screen1](Screenshots/screen1.png)
-![Screen2](Screenshots/screen2.png)
-![Screen3](Screenshots/screen3.png)
-![Screen4](Screenshots/screen4.png)
+---
 
-**Note:** screenshots are slightly outdated at this time. (I am currently updating right now).
+Empty workspace screenshot:
+
+![Screen1](Screenshots/screen3.png)
+
+---
+
+### Installing
+
+==COMING SOON== I will provide an install script soon (for myself to set up temporary virtual environments)
+
+Busy workspace screenshot:
+
+![Screen2](Screenshots/screen1.png)
+
+Notes on configuration:
+- rofi accents with a random color on every launch, affecting the launcher and powermenu
+- screensaver is set to a random color on every launch
+- tty-clock is set to a random color when launched with "clock" alias
+- fish uses the [tide](https://github.com/IlanCosman/tide) prompt
+
+Custom screensaver (using [cmatrix](https://github.com/abishekvashok/cmatrix)). Can be called from commandline or from powermenu (rofi):
+
+![Screen3](Screenshots/screen4.png)
+
+Additional screenshot:
+
+![Screen4](Screenshots/screen2.png)
+
+### Polybar and Rofi config:
+
+For polybar - inspired by (polybar-themes)[https://github.com/adi1090x/polybar-themes], specifically the (forest)[https://github.com/adi1090x/polybar-themes#Forest] theme, of which I borrowed a lot of modules from to create my "gruvbar" bar.
+
+For rofi - ideas, scripts, and features taken from both this [rofi theme collection](https://github.com/adi1090x/rofi) and from this [setup here](https://github.com/adi1090x/polybar-themes).
+
+### Fonts:
+
+The kitty terminal was chosen for ligature support, (project originally used alacritty). Main font is [fira code](https://github.com/tonsky/FiraCode). Nerd font icons are used.
+
+- [FiraCode](https://www.nerdfonts.com/) (for everything, I always set to "semibold")
+- [Microsoft fonts](https://aur.archlinux.org/packages/ttf-ms-fonts) (for Brave)
+- [Noto fonts](https://github.com/notofonts/noto-fonts) (for emojis :smile:)
+
+### Plugin info:
+
+- [fisher](https://github.com/jorgebucaran/fisher) plugin manager for fish
+  - [tide](https://github.com/IlanCosman/tide) fish plugin for prompt
+- [vim-plug](https://github.com/junegunn/vim-plug) plugin manager for vim
+  - [gruvbox-material](https://github.com/sainnhe/gruvbox-material) vim plugin for gruvbox theme
+  - [vim-devicons](https://github.com/ryanoasis/vim-devicons) vim plugin for devicons
+  - [nerdtree](https://github.com/preservim/nerdtree) vim plugin for file navigation
+  - [vim-startify](https://github.com/mhinz/vim-startify) vim plugin for welcome screen
+  - [coc.nvim](https://github.com/neoclide/coc.nvim) vim plugin for all of my autocompletion, linting, and more
+  - [nerdcommenter](https://github.com/perservim/nerdcommenter) vim plugin for comments
+  - [vim-snippets](https://github.com/honza/vim-snippets) vim plugin for snippets
+  - [lightline](https://github.com/itchyny/lightline.vim) vim plugin for statusline
+
+---
+
+**Note:** screenshots may be slightly outdated at this time. (I am actively updating right now).
