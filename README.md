@@ -43,7 +43,7 @@ Notes on configuration:
 - tty-clock is set to a random color when launched with "clock" alias
 - fish uses the [tide](https://github.com/IlanCosman/tide) prompt
 
-Custom screensaver (using [cmatrix](https://github.com/abishekvashok/cmatrix)). Can be called from commandline or from powermenu (rofi):
+Custom screensaver (using [cmatrix](https://github.com/abishekvashok/cmatrix)). Can be called from commandline or from powermenu (rofi). Will trigger automatically after 8 minutes of inactivity:
 
 ![Screen3](Screenshots/screen4.png)
 
