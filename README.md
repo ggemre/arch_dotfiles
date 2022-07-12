@@ -64,7 +64,7 @@ For rofi - ideas, scripts, and features taken from both this [rofi theme collect
 The kitty terminal was chosen for ligature support, (project originally used alacritty). Main font is [fira code](https://github.com/tonsky/FiraCode). Nerd font icons are used.
 
 - [FiraCode](https://www.nerdfonts.com/) (for everything, I always set to "semibold")
-- [Microsoft fonts](https://aur.archlinux.org/packages/ttf-ms-fonts) (for Brave)
+- [Microsoft fonts](https://aur.archlinux.org/packages/ttf-ms-fonts) (certain apps)
 - [Noto fonts](https://github.com/notofonts/noto-fonts) (for emojis :smile:)
 
 ### Plugin info:
