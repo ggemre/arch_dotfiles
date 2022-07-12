@@ -17,13 +17,13 @@ Main specs:
 - **editor** : [neovim](https://github.com/neovim/neovim)
 - **shell** : [fish](https://github.com/fish-shell/fish-shell)
 - **theme** : [gruvbox](https://github.com/morhetz/gruvbox)
-- **browser** : [brave](https://brave.com/)
+- **browser** : [firefox](https://www.mozilla.org/en-US/firefox/new/) (hardened)
 
 ---
 
 Empty workspace screenshot:
 
-![Screen1](Screenshots/screen3.png)
+![Screen1](Screenshots/empty.png)
 
 ---
 
@@ -35,7 +35,7 @@ Empty workspace screenshot:
 
 Busy workspace screenshot:
 
-![Screen2](Screenshots/screen1.png)
+![Screen2](Screenshots/tiled.png)
 
 Notes on configuration:
 - rofi accents with a random color on every launch, affecting the launcher and powermenu
@@ -49,13 +49,15 @@ Custom screensaver (using [cmatrix](https://github.com/abishekvashok/cmatrix)). 
 
 Additional screenshot:
 
-![Screen4](Screenshots/screen2.png)
+![Screen4](Screenshots/floating.png)
 
 ### Polybar and Rofi config:
 
 For polybar - inspired by [polybar-themes](https://github.com/adi1090x/polybar-themes), specifically the [forest](https://github.com/adi1090x/polybar-themes/blob/master/README.md#Forest) theme, of which I borrowed a lot of modules from to create my "gruvbar" bar.
 
 For rofi - ideas, scripts, and features taken from both this [rofi theme collection](https://github.com/adi1090x/rofi) and from this [setup here](https://github.com/adi1090x/polybar-themes).
+
+![Screen5](Screenshots/power.png)
 
 ### Fonts:
 
