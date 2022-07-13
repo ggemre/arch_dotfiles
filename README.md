@@ -2,7 +2,7 @@
 
 The dotfiles and other configuration info for arch setup for my own future reference.
 
-Each package was made by others. I just configured them and wrote some usefule scripts. I will do my best to link to each component I used and to give credit.
+Each package was made by others. I just configured them and wrote some useful scripts. I will do my best to link to each component I used and to give credit.
 
 ---
 
