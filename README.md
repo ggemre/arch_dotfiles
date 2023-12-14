@@ -1,3 +1,6 @@
+>[!NOTE]
+> This repo has been archived, I no longer daily drive Arch or use this configuration. I've since switched to NixOS. New config maintained [here](https://github.com/ggemre/nixos-config).
+
 # arch_dotfiles
 
 The dotfiles and other configuration info for arch setup for my own future reference.
